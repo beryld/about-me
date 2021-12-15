@@ -1,5 +1,5 @@
 html{
-    background-color: #FEFEFA;
+    background-color: rgb(254, 254, 250);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(29, 29, 29);}
 .headers{
@@ -9,8 +9,42 @@ body{
     padding-left: 25px;
     margin: 0%;
 }
+/*#bigname{
+    height: 0px;
+    width: 0px;
+    border-style: solid;
+    border-color: transparent transparent rgb(194, 194, 216) transparent;
+    border-width: 0px 60px 120px 60px;
+    position: relative;
+    top: 20px; left: 400px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    text-align: justify;
+}*/
+#tria1{
+    height: 0px;
+    width: 0px;
+    border-style: solid;
+    border-color: transparent transparent rgb(194, 194, 216) transparent;
+    border-width: 0px 60px 120px 60px;
+    position: absolute;
+    top: 380px; left: 680px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    animation: spin 20s ;
+}
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
 #title_name{
     text-align: center;
+
 } 
 #whitebox{
     width: 100px;
@@ -23,11 +57,12 @@ body{
 }
 #initalic{
     font-style: italic;
-    background-color: #F8F8FF;
+    background-color: #D6EBFF;
     padding: 10px 10px ;
     width: 700px;
     border-radius: 20px;
     text-align: center;
+    margin-top: 50px;
 }
 p{
     font-size: 14px;
@@ -43,17 +78,19 @@ ul{
     padding-top: 30px;
 }
 #joke{
-    background-color: #F8F8FF;
+    background-color: #eaeaff;
     width: 270px;
     padding-left: 25px;
-    border-radius: 25px;
+    border-radius: 20px;
     margin-bottom: 50px;
     margin-top: 50px;
 }
 #funnystory{
-    background-color: #F8F8FF;
-    width: 100px;
+    background-color: #EAF5FF;
+    width: 105px;
     margin-left: 200px;
+    border-radius: 20px;
+    text-align: center;
 }
 #funoneline{
     font-size: 14px;
