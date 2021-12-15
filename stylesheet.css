@@ -31,7 +31,7 @@ body{
     top: 380px; left: 680px;
     margin-bottom: 50px;
     margin-top: 0px;
-    animation: spin 200s infinite ;
+    animation: spin 10s infinite ;
 }
 @keyframes spin {
     0%{
