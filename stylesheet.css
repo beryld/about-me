@@ -47,7 +47,17 @@ ul{
     width: 270px;
     padding-left: 25px;
     border-radius: 25px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+#funnystory{
+    background-color: #F8F8FF;
+    width: 100px;
+    margin-left: 200px;
 }
 #funoneline{
     font-size: 14px;
+}
+#lastitemlist{
+    margin-bottom: 50px;
 }
